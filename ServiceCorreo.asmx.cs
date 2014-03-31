@@ -42,7 +42,7 @@ namespace WebServiceEnviarCorreo
                 return false;
             }
         }
-        [WebMethod(Description = "Envio de Correo de confirmacion de nueva solicitud")]
+        [WebMethod(Description = "Envio de Correo de confirmacion de nueva solicitud Con Archivo Adjunto")]
         public bool SendEmailConfirmacionSolicitudAdjunto(string From, string To, string Asunto, string Body, Attachment PDF, string Credential)
         {
             try
