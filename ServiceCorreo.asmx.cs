@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Net.Mail;
 using System.Net.Mail;
+using System.IO;
 
 namespace WebServiceEnviarCorreo
 {
@@ -42,14 +43,16 @@ namespace WebServiceEnviarCorreo
                 return false;
             }
         }
+
         [WebMethod(Description = "Envio de Correo de confirmacion de nueva solicitud Con Archivo Adjunto")]
-        public bool SendEmailConfirmacionSolicitudAdjunto(string From, string To, string Asunto, string Body, Attachment PDF, string Credential)
+        public bool SendEmailConfirmacionSolicitudAdjunto(string From, string To, string Asunto, string Body, MemoryStream PDF, string Credential)
         {
             try
             {
                 using (MailMessage mailMessage = new MailMessage())
                 {
-                    mailMessage.Attachments.Add(PDF);
+                    Attachment attach = new Attachment(PDF, "Contrato.pdf", "application/pdf");
+                    mailMessage.Attachments.Add(attach);
                     mailMessage.From = new MailAddress(From);
                     mailMessage.Subject = Asunto;
                     mailMessage.Body = Body;
