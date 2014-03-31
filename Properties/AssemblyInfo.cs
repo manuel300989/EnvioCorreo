@@ -5,22 +5,22 @@ using System.Runtime.InteropServices;
 // La información general sobre un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie los valores de estos atributos para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("WebServiceEnviarCorreo")]
+[assembly: AssemblyTitle("MvcSendEmail")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("WebServiceEnviarCorreo")]
+[assembly: AssemblyProduct("MvcSendEmail")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Si ComVisible se establece en false, los componentes COM no verán los 
+// Si ComVisible se establece en False, los componentes COM no verán los 
 // tipos de este ensamblado. Si necesita obtener acceso a un tipo de este ensamblado desde 
-// COM, establezca el atributo ComVisible en true en este tipo.
+// COM, establezca el atributo ComVisible en True en este tipo.
 [assembly: ComVisible(false)]
 
-// El siguiente GUID sirve como ID de la biblioteca de tipos si este proyecto se expone a COM.
-[assembly: Guid("c45ecfab-4a6b-4ed5-a95e-0f7973f3850c")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("5824baf4-9af6-4f13-9a75-cc42a0e27397")]
 
 // La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //
