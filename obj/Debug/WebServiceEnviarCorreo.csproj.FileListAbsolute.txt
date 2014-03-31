@@ -1,0 +1,5 @@
+c:\users\jesus\documents\visual studio 2012\Projects\WebServiceEnviarCorreo\WebServiceEnviarCorreo\bin\WebServiceEnviarCorreo.dll
+c:\users\jesus\documents\visual studio 2012\Projects\WebServiceEnviarCorreo\WebServiceEnviarCorreo\bin\WebServiceEnviarCorreo.pdb
+c:\users\jesus\documents\visual studio 2012\Projects\WebServiceEnviarCorreo\WebServiceEnviarCorreo\obj\Debug\WebServiceEnviarCorreo.csprojResolveAssemblyReference.cache
+c:\users\jesus\documents\visual studio 2012\Projects\WebServiceEnviarCorreo\WebServiceEnviarCorreo\obj\Debug\WebServiceEnviarCorreo.dll
+c:\users\jesus\documents\visual studio 2012\Projects\WebServiceEnviarCorreo\WebServiceEnviarCorreo\obj\Debug\WebServiceEnviarCorreo.pdb
