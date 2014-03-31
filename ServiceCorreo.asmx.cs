@@ -45,7 +45,7 @@ namespace WebServiceEnviarCorreo
         }
 
         [WebMethod(Description = "Envio de Correo de confirmacion de nueva solicitud Con Archivo Adjunto")]
-        public bool SendEmailConfirmacionSolicitudAdjunto(string From, string To, string Asunto, string Body, MemoryStream PDF, string Credential)
+        public bool SendEmailConfirmacionSolicitudAdjunto(string From, string To, string Asunto, string Body,System.IO.MemoryStream PDF, string Credential)
         {
             try
             {
